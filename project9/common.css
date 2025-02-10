@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  /* background-color: rgb(177, 171, 171); */
+  /* background-image: url(/project9/images/02.jpeg); */
+  /* background-repeat: no-repeat; */
+  /* height: 100px; */
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+/* .Wrapper{
+  height: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+} */
+.next-row{
+  clear: both;
+}
+.arrange-left {
+  float: left;
+  margin-top: 20px;
+}
+.common-btn {
+  height: 54px;
+  border: 2px solid #dddd;
+  border-radius: 0;
+  background-color: #fff;
+  min-width: 50px;
+  text-align: center;
+  color: orange;
+}
+.common-btn span{
+    font-size: 16px;
+    font-weight: 900;
+}
+.common-btn span i{
+  padding-left: 9px;
+  padding-right: 4px;
+}
+.fillip-img{
+  transform: scaleX(-1);
+}
+.margin-right-5{
+margin-right: 5%;
+}
+/* @media only screen and (max-width:992px) {
+  .width25 .width50 .width75 .width33{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .arrange-left{
+    float: none;
+  }
+} */
+@media only screen and (max-width: 992px) {
+  .width25, 
+  .width50, 
+  .width75, 
+  .width-33 { 
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .arrange-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .search-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-product input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-product button {
+    width: 50px;
+  }
+
+  .selected-product {
+    text-align: center;
+  }
+
+  .selected-product .common-btn {
+    margin: 5px;
+  }
+
+  .shop-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .shop-menu ul {
+    display: block;
+  }
+
+  .shop-menu ul li {
+    padding: 10px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer .width25 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .copy-right {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Products-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Products-black span {
+    width: 50px;
+  }
+
+  .cart-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .cart .cart-details .cart-price {
+    display: block;
+    text-align: center;
+  }
+
+  .vender-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .vender-list img {
+    width: 45%;
+  }
+}
